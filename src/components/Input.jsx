@@ -18,7 +18,7 @@ const Input = ({ setInput }) => {
           value={value}
           onChange={e => setValue(e.target.value)}  
         />
-        <button onClick={handleClick} style={{ color: 'blue', padding: 20 }}>short the link of website</button>
+        <button onClick={handleClick} style={{ color: 'black' }}>short the link of website</button>
       </div>
     </div>
   )
